@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Info Connessione",
+  "version": "1.0",
+  "description": "Visualizza l'indirizzo IP e la velocità della connessione.",
+  "permissions": ["storage", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*"],
+  "browser_action": {
+    "default_icon": "2.png",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "2": "2.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "popup.html"
+  }
+}
