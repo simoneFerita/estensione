@@ -1,2 +1,4 @@
 # estensione
-Connection Info View the IP address and connection speed
+Connection Info: 
+  -IP address
+  -connection speed
